@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="17.742934">
+<testcase classname="Validating login function of facebook application" name="Validating login function wit all combinations" time="12.297115">
+<system-out><![CDATA[Given user is on Facebook application.......................................passed
+When user is going enter "abcdef" and "fjbjsfjs"............................passed
+Then user sould click login button..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating login function of facebook application" name="Validating login function wit all combinations 2" time="5.445819">
+<system-out><![CDATA[Given user is on Facebook application.......................................passed
+When user is going enter "abcdef" and "fjbjsfjs"............................passed
+Then user sould click login button..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

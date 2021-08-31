@@ -1,0 +1,169 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2327704,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClasss.beforeScenario()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Validating login function wit all combinations",
+        "description": "",
+        "id": "validating-login-function-of-facebook-application;validating-login-function-wit-all-combinations;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 167291,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClasss.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11682472744,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Facebook application",
+            "match": {
+              "location": "StepDefinition.user_is_on_Facebook_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 268388907,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is going enter \"abcdef\" and \"fjbjsfjs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcdef\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"fjbjsfjs\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinition.user_is_going_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 335802498,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user sould click login button",
+            "match": {
+              "location": "StepDefinition.uh()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 140607,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClasss.beforeScenario()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Validating login function wit all combinations",
+        "description": "",
+        "id": "validating-login-function-of-facebook-application;validating-login-function-wit-all-combinations;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 149844,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClasss.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4873954560,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on Facebook application",
+            "match": {
+              "location": "StepDefinition.user_is_on_Facebook_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 259569190,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is going enter \"abcdef\" and \"fjbjsfjs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcdef\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"fjbjsfjs\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinition.user_is_going_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 311092717,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user sould click login button",
+            "match": {
+              "location": "StepDefinition.uh()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating login function of facebook application",
+    "description": "",
+    "id": "validating-login-function-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Sample.feature",
+    "tags": []
+  }
+]
